@@ -1,14 +1,23 @@
 # Real-Time Sentiment Analysis Dashboard
 
-Analyzes sentiment of news headlines using AI and displays results in an interactive dashboard.
+![Dashboard Demo](assets/dashboard-screenshot.png)  
+([video_demo](https://drive.google.com/file/d/10gvzkR7efoUYUQApo6h8SvT32Nmz1yRQ/view?usp=sharing))
+
+Analyzes sentiment of news headlines using **Hugging Face NLP** and **Streamlit**.  
+Deployed live: [Demo](https://sentiment-dash.streamlit.app/)
 
 ## Features
-- Real-time news data from News API
-- Sentiment analysis with Hugging Face's NLP model
-- Interactive visualizations (pie charts, bar graphs)
+- Real-time news sentiment scoring
+- Interactive charts (Plotly)
+- Easy keyword search (e.g., "AI", "Bitcoin")
 
-## Setup
-1. Clone this repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your News API key to `.env`
-4. Run: `streamlit run app.py`
+## Tech Stack
+- **Python**  (Backend)
+- **Streamlit** (Frontend)  
+- **Hugging Face Transformers** (NLP Model)  
+- **News API** (Data Source)
+
+## Installation
+1. Clone repo:
+   ```bash
+   git clone https://github.com/apemod3/sentiment-dashboard.git
