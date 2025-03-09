@@ -4,7 +4,7 @@
 ([video_demo](https://drive.google.com/file/d/10gvzkR7efoUYUQApo6h8SvT32Nmz1yRQ/view?usp=sharing))
 
 Analyzes sentiment of news headlines using **Hugging Face NLP** and **Streamlit**.  
-Deployed live: [Demo](https://sentiment-dash.streamlit.app/)
+Deployed live: [Sentiment-Dash](https://sentiment-dash.streamlit.app/)
 
 ## Features
 - Real-time news sentiment scoring
