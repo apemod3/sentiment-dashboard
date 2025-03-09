@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+newsapi-python
+transformers
+python-dotenv
+torch
+torchvision
+torchaudio
